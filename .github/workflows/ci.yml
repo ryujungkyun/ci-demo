@@ -18,7 +18,7 @@ jobs:
 
     steps:
       # Step 1: 코드 가져오기
-      - name: Checkout code
+      - name: Checkout code 1
         uses: actions/checkout@v6
 
       # Step 2: 스프링 빌드를 위한 Java 17 설치
